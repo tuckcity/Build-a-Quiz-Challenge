@@ -7,6 +7,8 @@ const quizQuestions = [
 
 // 2. Store the number of questions answered correctly
 let correct = 0;
+let right = [];
+let wrong = [];
 
 /* 
   3. Use a loop to cycle through each question
@@ -15,8 +17,6 @@ let correct = 0;
       - If the response matches the answer, the number of correctly
         answered questions increments by 1
 */
-let right = [];
-let wrong = [];
 
 for (let i = 0; i < quizQuestions.length; i++) {
     let question = quizQuestions[i][0];
